@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Curso Análise e Desenvolvimento de Sistemas</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="index.html" class="logo">
+					<span class="symbol"><img src="images/logoit.png" alt="" /></span><span class="title">INSTITUTO DE TECNOLOGIA GO HORSE</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="elements.html">Elements</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>Análise e Desenvolvimento de Sistemas</h1>
+				<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo minus enim optio, vel veritatis eum nihil rem eos accusantium odit minima. Ratione pariatur, eum, vel doloremque quisquam, deleniti sint molestias culpa perspiciatis tempora corrupti? Iusto fugiat quis, possimus minus voluptatem nisi aut numquam, natus pariatur facilis qui ipsam sit saepe cumque beatae amet consequatur fuga obcaecati! Assumenda neque possimus, illum amet exercitationem excepturi ab vel repudiandae soluta alias a optio ipsum, ducimus cum sint ratione eveniet numquam blanditiis tempore. Consequatur.</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem officiis aliquid molestias quae quam. Ex atque quod aut nam aliquam ipsa ratione sunt at, natus molestiae hic ab, cupiditate molestias dolores pariatur, delectus distinctio? Nihil ad consequatur id aut odit eius illo recusandae quia vel aspernatur, vero est esse excepturi minima voluptatibus veritatis similique soluta ut cum, perspiciatis veniam asperiores?</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At iure qui, facilis consequuntur quae minima. Ex, sequi amet? Sed quos, aperiam debitis quasi modi laborum eos officia temporibus consectetur veritatis soluta eius officiis iste. Repellendus reiciendis laudantium, corrupti tenetur sed atque ducimus quaerat voluptatem amet at tempore incidunt tempora quasi eveniet nesciunt maxime facere sit laborum! Error reiciendis provident iusto molestias fugiat! Doloribus consectetur optio consequatur assumenda illo, ipsam vitae harum accusamus facere dolorum. Quidem eum iure provident consectetur eveniet dolorem est ipsam sit eius amet ut voluptates doloremque ducimus impedit porro ratione quos ipsa nemo, quae laboriosam accusantium. Perferendis.</p>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<section>
+					<h2>Faça o seu Cadastro</h2>
+					<form method="post" action="https://650b9450dfd73d1fab0a0ff1.mockapi.io/api/v1/usuario">
+						<div class="field">
+							<label for="name"></label>
+							<input type="text" name="name" id="name" placeholder="Nome" required /><br>
+						</div>
+						<div class="field">
+							<label for="name"></label>
+							<input type="text" name="email" id="email" placeholder="Egmail" required /><br>
+						</div>
+						<div class="field">
+							<label for="phone"></label>
+							<input type="text" name="phone" id="phone" placeholder="Telefone" data-inputmask="'mask': '(99) 9999-9999'" /><br>
+						</div>
+						<div class="field">
+							<label for="course"></label>
+							<select name="course" id="course">
+								<option value="adsmanha">Análise e Desenvolvimento de Sistemas - Manhã</option>
+								<option value="adsnoturno">Análise e Desenvolvimento de Sistemas - Noturno</option>
+								<option value="adsead">Análise e Desenvolvimento de Sistemas - EAD</option>
+							</select><br>
+						</div>
+						<div class="field">
+							<label for="birthdate">Data de Nascimento</label>
+							<input type="date" name="nasc" id="nasc" required /><br>
+						</div>
+						<ul class="actions">
+							<li><a href="#" class="button">Cadastrar</a></li>
+						</ul>
+					</form>
+				</section>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/jquery.inputmask.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('#phone').inputmask('(99) 9999-9999');
+			});
+		</script>
+</body>
+
+</html>
